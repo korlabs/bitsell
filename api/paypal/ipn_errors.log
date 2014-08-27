@@ -1,0 +1,5 @@
+[10-Aug-2014 06:19:05] PHP Warning:  mysql_connect(): Unknown MySQL server host '$db_server' (2) in /var/zpanel/hostdata/zadmin/public_html/etv-channel_com/bitsellatm/api/paypal/ipn.php on line 61
+[10-Aug-2014 06:58:35] Invalid HTTP request method.
+[10-Aug-2014 13:10:41] Invalid HTTP request method.
+[10-Aug-2014 13:59:29] Invalid HTTP request method.
+[10-Aug-2014 15:12:26] Invalid HTTP request method.
