@@ -49,7 +49,7 @@ else
 <?php
 
 
-$url = $_GET[url];
+$url = preg_replace('/[^-a-zA-Z0-9_]/', '', $_GET['url']);
 
 
 
@@ -68,7 +68,7 @@ file_put_contents($file, $content);
 ?>
 <p>
 <center>
-<a href="page6.php">Tap to proceed ></a>
+<a href="page6.php">URL is valid. Tap to proceed. ></a>
 <? 
 }
 ?>
