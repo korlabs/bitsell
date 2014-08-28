@@ -47,7 +47,7 @@ else
 <h1 id="logo">Setup</h1><br />
 <font size="3">Please enter your API key to authenticate with the BitSellATM management panel.<br/><br/>
 <?
-$key = $_GET[api];
+$key = preg_replace('/[^-a-zA-Z0-9_]/', '', $_GET['api']);
 if($key == "") {
 ?>
 <form action="" method="get">
