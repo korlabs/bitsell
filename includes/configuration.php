@@ -2,24 +2,24 @@
 
 // BitSell Configuration File
 
-$lang = "";
+$lang = "nolang";
 
 
-$setup = "";
+$setup = "no";
 
 
-$license = "";
+$license = "nolicense";
 
 
-$api_key = "";
+$api_key = "noapi";
 
-$address = "";
+$address = "website-just-here";
 
 // coinpay
 
-$coinpay_private = "";
+$coinpay_private = "no-coinpay-private";
 
-$coinpay_public = "";
+$coinpay_public = "no-coinpay-public";
 
 
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
