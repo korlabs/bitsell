@@ -47,7 +47,7 @@ else
 <h1 id="logo">Setup</h1><br />
 <font size="3">Please enter your license key.<br/><br/>
 <?
-$key = "$_GET[license]";
+$key = preg_replace('/[^-a-zA-Z0-9_]/', '', $_GET['license']);
 if($key == "") {
 ?>
 <form action="" method="get">
