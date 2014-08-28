@@ -49,7 +49,23 @@ else
 
 <p>
 <center>
-<a href="enter_page1.php?lang=english">English (United States)</a>
+<?php if($_GET[lang] =="") {
+?>
+<a href="page1.php?lang=english">English (United States)</a>
+<?php
+} else { 
+
+$language = preg_replace('/[^A-Za-z]/', '', $_GET['lang']);
+
+$file = '../includes/configuration.php';
+$content = file_get_contents($file);
+$content = preg_replace("/nolang/", $language, $content);
+file_put_contents($file, $content);
+
+header('location:page2.php');
+
+} 
+?>
 </center>
 </p>
 </font>
