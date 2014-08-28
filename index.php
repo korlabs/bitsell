@@ -57,3 +57,8 @@ Please choose your currency.<br /><br />
 <a href=order/?type=LTC class="button circled scrolly">LTC</a>
 <a href=order/?type=NMC class="button circled scrolly">NMC</a>
 <a href=order/?type=QRK class="button circled scrolly">QRK</a>
+
+<!-- Close tags !-->
+</div>
+</body>
+</html>
