@@ -3,7 +3,7 @@ ob_start();
 
 include("../includes/configuration.php");
 
-$language = $_GET[lang];
+$language = preg_replace('/[^A-Za-z]/', '', $_GET['lang']);
 
 $file = '../includes/configuration.php';
 $content = file_get_contents($file);
