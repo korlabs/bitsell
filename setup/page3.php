@@ -68,7 +68,7 @@ file_put_contents($file, $content);
 ?>
 <p>
 <center>
-<a href="page4.php">Tap to proceed ></a>
+<a href="page4.php">API key is valid. Tap to proceed. ></a>
 <? 
 }
 }
