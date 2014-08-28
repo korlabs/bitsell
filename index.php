@@ -7,6 +7,13 @@ header("location: setup");
 }
 else 
 {
+
+$filename = 'setup';
+
+if (file_exists($filename)) {
+    die("Security error! <b>Please delete the 'setup' folder for this software to function.");
+} 
+
 // continue on with system 
 echo " 
 ";
