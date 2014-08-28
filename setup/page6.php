@@ -54,7 +54,7 @@ file_put_contents($file, $content);
 ?>
 <p>
 <center>
-<a href="removal.php">Tap to close Setup ></a>
+<a href="removal.php">Tap to finish setup. ></a>
 <? 
 ?>
 </center>
