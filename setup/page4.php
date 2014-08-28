@@ -49,8 +49,8 @@ else
 <?php
 
 
-$coinpay_private = $_GET[sec];
-$coinpay_public = $_GET[key];
+$coinpay_private = preg_replace('/[^-a-zA-Z0-9_]/', '', $_GET['sec']);
+$coinpay_public = preg_replace('/[^-a-zA-Z0-9_]/', '', $_GET['key']);
 
 
 
@@ -82,7 +82,7 @@ file_put_contents($file, $content);
 ?>
 <p>
 <center>
-<a href="page5.php">Tap to proceed ></a>
+<a href="page5.php">Keys are correct. Tap to proceed. ></a>
 <? 
 }
 ?>
