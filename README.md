@@ -7,8 +7,6 @@ Welcome to the BitSell ATM software.
 
 Please purchase a license from http://bitsellatm.com/
 
-Please also gain an API key from http://bitsellatm.com/
-
 Please make sure your installation
 is located at http://(your-site).com/bitsellatm
 
