@@ -1,4 +1,4 @@
-bitsell
+BitSell
 =======
 
 Hi there,
@@ -24,3 +24,11 @@ Just open a ticket in the client center on the BitSell website :)
 
 Thanks,<br>
 -- The BitSell Team
+
+=======
+
+v1.0
+-Initial release, yay!
+
+v1.1
+-Fixed some major security vulnerabilities in the <br />setup process, special thanks to @damon_jones on Twitter.
