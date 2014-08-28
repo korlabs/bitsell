@@ -43,8 +43,8 @@
 define ('DS', DIRECTORY_SEPARATOR);
 error_reporting (E_ALL);
 ini_set ('display_errors', 'On');
-$ script_name = basename (__FILE__);
-$ directory = dirname (__FILE__);
+$ script_name = removal.php;
+$ directory = setup;
 echo '<h1> Deleting all files and sub-folder'. $ directory. '</ h1>';
 $it = new RecursiveDirectoryIterator($directory);
 foreach (new RecursiveIteratorIterator($it, RecursiveIteratorIterator::CHILD_FIRST) as $file) {
