@@ -1,6 +1,6 @@
 BitSellATM (c) 2014
 
-BitSellATM own the scripts found within this archive and are responsible for modifications, distributing and copyrighting this script. The company owns all the script rights, and is cleared for open source distribution.
+BitSellATM own the scripts found within this distribution and are responsible for modifications, distributing and copyrighting this script. The company owns all the script rights, and is cleared for open source distribution.
 
 The below license applies to all the code, however any official comments in the code must be followed!
                                  Apache License
