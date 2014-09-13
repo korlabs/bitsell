@@ -84,8 +84,8 @@ Input your BitCoin QR code: <br/>
       <legend>If you have issues scanning the QR code, please create a shortname at bit.co.in.</legend>
 
       
-        <label for="shortname">Shortname</label>
-        <input name="shortname" id="shortname" >
+        <label for="address">Address</label>
+        <input name="address" id="address" >
    <br /><input type=submit class="button circled scrolly">
       
 
