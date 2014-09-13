@@ -81,11 +81,11 @@ Input your BitCoin QR code: <br/>
   <form id="result" method="get" action="page1.php">
     <fieldset>
 <input type="hidden" name="type" value="<? Echo "$type"; ?>">
-      <legend>Your Address (Having trouble scanning QR code? Enter address manually.)</legend>
+      <legend>If you have issues scanning the QR code, please create a shortname at bit.co.in.</legend>
 
       
-        <label for="address">Address</label>
-        <input name="address" id="address" >
+        <label for="shortname">Shortname</label>
+        <input name="shortname" id="shortname" >
    <br /><input type=submit class="button circled scrolly">
       
 
