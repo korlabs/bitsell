@@ -49,7 +49,7 @@ else
 <?php
 
 
-$paypal_address = preg_replace('/[^-a-zA-Z0-9_\@\]/', '', $_GET['url']);
+$paypal_address = preg_replace('/[^-a-zA-Z0-9_/@/]/', '', $_GET['url']);
 
 
 
