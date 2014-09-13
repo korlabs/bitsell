@@ -8,11 +8,11 @@ header("location: setup");
 else 
 {
 $type = $_GET[type];
-$shortname = $_GET[shortname];
-<?php
-    $url = simplexml_load_file('https://bit.co.in/"$shortname"/format/xml');
-    $coin_address = $url->user[0]->address;
-?>
+$shortname = "https://bit.co.in/$_GET[shortname]/format/xml";
+
+    $url = simplexml_load_file($shortname);
+    $coin_address = $url->address;
+
 // continue on with system 
 ?>
 <!DOCTYPE HTML>
