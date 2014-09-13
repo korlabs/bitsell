@@ -8,13 +8,7 @@ header("location: setup");
 else 
 {
 $type = $_GET[type];
-$shortname = $_GET[shortname];
-
-$url = “https://bit.co.in/$shortname/format/json”;
-
-$string = file_get_contents($url);
-$json = json_decode($string,true);
-$coin_address = $json[name]
+$address = $_GET[address];
 // continue on with system 
 ?>
 <!DOCTYPE HTML>
