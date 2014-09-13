@@ -49,14 +49,14 @@ else
 <?php
 
 
-$paypal_address = preg_replace('/[^-a-zA-Z0-9_/@/]/', '', $_GET['url']);
+$paypal_address = $_GET['paypal_address'];
 
 
 
 if($paypal_address == "") {
 ?>
 <form action="" method="get">
-URL: http://<input name="paypal_address"> <br /><input type="submit" class="button circled scrolly">
+<input name="paypal_address"> <br /><input type="submit" class="button circled scrolly">
 <?
 }
 else {
