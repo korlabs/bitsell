@@ -32,3 +32,6 @@ v1.0
 
 v1.1
 -Fixed some major security vulnerabilities in the <br />setup process, special thanks to @damon_jones on Twitter.
+
+v1.3.5
+-Added in an awesome new feature using the bit.co.in API!
