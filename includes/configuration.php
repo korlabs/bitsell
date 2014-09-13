@@ -15,6 +15,8 @@ $api_key = "noapi";
 
 $address = "website-just-here";
 
+$paypal_address = "email-here";
+
 // coinpay
 
 $coinpay_private = "no-coinpay-private";
