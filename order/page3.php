@@ -5,7 +5,7 @@
 // Copyright BitSell team
 
 include("../includes/main.php");
-
+include("../includes/configuration.php");
 if($setup == "no")
  {
 header("location: setup");
@@ -14,6 +14,7 @@ header("location: setup");
 else 
 {
 $type = $_GET[type];
+
 // continue on with system 
 ?>
 <!DOCTYPE HTML>
