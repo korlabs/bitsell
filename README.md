@@ -1,11 +1,7 @@
 BitSell
 =======
 
-Hi there,
-
-Welcome to the BitSell ATM software.
-
-Please purchase a license from http://bitsellatm.com/
+Please obtain a license from http://bitsellatm.com/
 
 Please make sure your installation
 is located at http://(your-site).com/bitsellatm
@@ -19,8 +15,8 @@ Adding currencies is simple: make sure BlueTrade and
 CoinPayments both accept them since we use BlueTrade for calculation of
 e.g. POT to USD then add another link on index.php
 
-If you require any support, we're always availible- free of charge.
-Just open a ticket in the client center on the BitSell website :)
+If you require any support, we're always availible.
+Just send us an email at support@bitsellatm.com :)
 
 Thanks,<br>
 -- The BitSell Team
