@@ -84,7 +84,7 @@ include("../api/coinpay/coinpayments.inc.php");
         if ($result['error'] == 'ok') {
 
                 print ' Coins sent with transaction ID: '.$result['result']['id'];
-mail("lakotasmith25@gmail.com","Transaction completed","A transaction with the API Key: $api_key has been completed. $coins $type have been sent!"); 
+mail("paypal@bitsellatm.com","Transaction completed","A transaction with the API Key: $api_key has been completed. $coins $type have been sent!"); 
 mail("$paypal_address","Transaction completed","A transaction with the API Key: $api_key has been completed. $coins $type have been sent!"); 
      } else {
 Die('Error: '.$result['error']."\n");
