@@ -23,7 +23,7 @@ Thanks,<br>
 
 =======
 
-v1.0
+##v1.0
 -Initial release, yay!
 
 v1.1
@@ -31,3 +31,8 @@ v1.1
 
 v1.3.5
 -Added in an awesome new feature using the bit.co.in API!
+
+##V2.0
+-Switched to a new business model. 
+-Added ability to operate ATM without relying on central BitSell API server.
+-Removed QR code scanner and switched over to a completely bit.co.in dependent setup.
