@@ -26,10 +26,10 @@ Thanks,<br>
 ##v1.0
 -Initial release, yay!
 
-v1.1
+##v1.1
 -Fixed some major security vulnerabilities in the <br />setup process, special thanks to @damon_jones on Twitter.
 
-v1.3.5
+##v1.3.5
 -Added in an awesome new feature using the bit.co.in API!
 
 ##V2.0
