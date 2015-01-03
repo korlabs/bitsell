@@ -48,40 +48,10 @@ $type = $_GET[type];
 <body>
 <h1>BitSellATM</h1>
 Let's fetch your coin address.
-
-  <script src="../api/qr-code/jsqrcode/src/grid.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/version.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/detector.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/formatinf.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/errorlevel.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/bitmat.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/datablock.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/bmparser.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/datamask.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/rsdecoder.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/gf256poly.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/gf256.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/decoder.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/qrcode.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/findpat.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/alignpat.js"></script>
-  <script src="../api/qr-code/jsqrcode/src/databr.js"></script>
-  <script src="../api/qr-code/query-string/query-string.js"></script>
-
-
-
-
-  
-Input your BitCoin QR code: <br/> 
-
-  
-    <center><input type="file" accept="image/*" capture="camera" id="input">
-  
-
   <form id="result" method="get" action="page1.php">
     <fieldset>
 <input type="hidden" name="type" value="<? Echo "$type"; ?>">
-      <legend>If you have issues scanning the QR code, please create a shortname at bit.co.in.</legend>
+      <legend>Please create a shortname at bit.co.in.</legend>
 
       
         <label for="shortname">Shortname</label>
@@ -92,14 +62,7 @@ Input your BitCoin QR code: <br/>
     </fieldset>
   </form>
 
-  <div class="image-container">
-    <img src="" id="image">
-  </div>
 
-    
-  
-
-  <script src="../api/qr-code/test.js"></script>
 </body>
 </html>
 <?php
