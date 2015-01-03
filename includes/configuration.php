@@ -17,6 +17,8 @@ $address = "website-just-here";
 
 $paypal_address = "email-here";
 
+$transaction_fee = "transaction-fee-here";
+
 // coinpay
 
 $coinpay_private = "no-coinpay-private";
