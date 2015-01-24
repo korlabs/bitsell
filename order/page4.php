@@ -90,7 +90,7 @@ mail("$paypal_address","Transaction completed","A transaction with the API Key: 
 Die('Error: '.$result['error']."\n");
 
      }
-?>
+?><br />
 <a href="../">Start another transaction</a>
 <br/><br/>
 <?
